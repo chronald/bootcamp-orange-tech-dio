@@ -14,11 +14,11 @@ E para GITHUB há o Gitlab etc.
 
 ### Benefícios de estar aprendendo ambas as tecnologias
 
-	- Controle de versão
+- Controle de versão
 
-	- Armazenamento em nuvem
+- Armazenamento em nuvem
 
-	- Trabalho em equipe
+- Trabalho em equipe
 
 - Melhorar seu código
 
@@ -30,13 +30,10 @@ E para GITHUB há o Gitlab etc.
 
 GUI X CLI
 O que vamos aprender?
-	- Mudar de pastas
-
-	- Listar as pastas
-
-	- Criar pastas/arquivos
-
-	- Deletar pastas/arquivos
+- Mudar de pastas
+- Listar as pastas
+- Criar pastas/arquivos
+- Deletar pastas/arquivos
 
 ---------------
 
@@ -47,10 +44,10 @@ WINDOWS
 - mkdir – Para criar pasta 
 - del(deletar arquivo)/rmdir (deletar pasta)  /S /Q
 - ls retorna oque tem na pasta em si
-  cd .. retrocede para a navegação o anterior
-  cls – limpar o terminal do Windows 
-  echo – devolve uma palavra digitada
-  - Redirecionador de fluxo / utilizar junto ao echo
+- cd .. retrocede para a navegação o anterior
+- cls – limpar o terminal do Windows 
+- echo – devolve uma palavra digitada
+- Redirecionador de fluxo / utilizar junto ao echo
 ------------------------------------------------------
 ### ENTENDENDO COMO O GIT FUNCIONA POR BAIXO DOS PANOS
 
@@ -106,10 +103,8 @@ Forma de estabelecer uma conexão segura e encriptada entre duas máquinas
 
 - Iniciar o GIT
   - git init
-
 - Iniciar o versionamento
-  	- git add
-
+  - git add
 - Criar um commit
   - git commit
 
