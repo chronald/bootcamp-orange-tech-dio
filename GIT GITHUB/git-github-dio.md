@@ -5,9 +5,8 @@ SOFTWARE não é feito se não for colaborativo.
 GITHUB, Empresa da Microsoft 
 GITHUB E GIT APARECEM GERALMENTE JUNTOS POR SEREM FORTES NO MERCADO.
 São completamente diferente uma da outra.
-Embora sejam muito utilizadas não estão sozinha
-Há outra opções como BITKEEPER CVS para o GIT
-
+Embora sejam muito utilizadas não estão sozinha há outra opções como
+BITKEEPER CVS para o GIT
 E para GITHUB há o Gitlab etc.
 
 -------------
