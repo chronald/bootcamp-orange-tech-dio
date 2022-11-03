@@ -9,7 +9,25 @@ Embora sejam muito utilizadas não estão sozinha há outra opções como
 BITKEEPER CVS para o GIT
 E para GITHUB há o Gitlab etc.
 
+#### GIT | OQUE FAZ?
+
+- Software Open Source
+- **Objetivo**: controle de versão 
+- Rastreamento de modificações.
+
 -------------
+
+#### Github | OQUE FAZ?
+
+Plataforma de:
+
+* Hospedagem
+* Desenvolvimento
+* Versionamento
+
+*Usado para orquestrar desenvolvedores em um mesmo projeto*
+
+----------------------
 
 ### Benefícios de estar aprendendo ambas as tecnologias
 
