@@ -46,7 +46,7 @@ Aritméticos :
 Precedência :
 
 * ()
-* ** 
+* **
 * (* / %)
 * (+ - )
 
@@ -138,3 +138,9 @@ Else if () {
 -------------
 
 Caso queira usar formatação no JS utilizar crazy (`` + $ {})
+
+-------------------
+
+Para utilizar potencia utilizar 
+
+Math.pow(variavel, 2, 10 etc)
