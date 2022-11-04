@@ -8,14 +8,14 @@ Classificação:
 - Média acima de 7, passou de semestre; */
 
 const notaUm = 5;
-const NotaDois = 10;
+const NotaDois = 7;
 const NotaTres = 9;
 
 const MediaAluno = (notaUm + NotaDois + NotaTres) / 3;
 
 if (MediaAluno < 5) {
     console.log('Reprovação');
-}else if (MediaAluno >= 5 && MediaAluno <= 7) {
+}else if (MediaAluno >= 5 || MediaAluno <= 7) {
   console.log('Recuperação')  
 }else {
     console.log('Passou de semestre')
