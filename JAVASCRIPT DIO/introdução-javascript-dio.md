@@ -144,3 +144,63 @@ Caso queira usar formatação no JS utilizar crazy (`` + $ {})
 Para utilizar potencia utilizar 
 
 Math.pow(variavel, 2, 10 etc)
+
+------------
+
+## Funções
+
+Funções é um pequeno trecho de código que pode invocar a execução dele a qualquer momento que a gente quiser.
+
+-----------------
+
+Para declarar uma função utilizar 
+
+function nomefunction(){
+
+}
+
+para executar uma função utilizar o nome da função criada.
+
+o () é o parametro da função.
+
+as funções não estão devolvendo nada é chamada de procedimento, irá executar oque está dentro da função e fim.
+
+para devolver o valor utilizar return
+
+-------------------------
+
+utilizar sempre uma função principal (main)
+
+function main(){
+
+}
+
+*Funções no JS é objeto.*
+
+para reatribuir uma função utilizar
+
+
+
+nomefunção = function(){
+
+}
+
+----------------------
+
+para usar a função imediatamente invocada utilizar () em volta da função
+
+ex: 
+
+(function main(){
+
+const valorUm = 15
+
+const valorDois = 10
+
+const resultado = peso + altura 
+
+console.log(resultado);
+
+})();
+
+caso queira pode retirar o nome da função pois a mesma só funcionará dentro do (), é utilizado bastante na parte Web para isolar códigos/escopos ou utilizado para funções que será executado uma vez somente
