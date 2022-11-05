@@ -161,11 +161,13 @@ function nomefunction(){
 
 para executar uma função utilizar o nome da função criada.
 
-o () é o parametro da função.
+o () é o parâmetro da função. da para passar utilizar parâmetros pré-definidos por ex
+
+function soma(n1=0, n2=0)
 
 as funções não estão devolvendo nada é chamada de procedimento, irá executar oque está dentro da função e fim.
 
-para devolver o valor utilizar return
+para devolver o valor utilizar **return** (Só pode ter um retorno dentro da função)
 
 -------------------------
 
@@ -206,3 +208,5 @@ console.log(resultado);
 caso queira pode retirar o nome da função pois a mesma só funcionará dentro do (), é utilizado bastante na parte Web para isolar códigos/escopos ou utilizado para funções que será executado uma vez somente
 
 **para calcular porcentagem utilizar 10/100** - Para não esquecer no futuro. 
+
+**Utilizar F8 para aparecer o resultado automaticamente no node.js**
