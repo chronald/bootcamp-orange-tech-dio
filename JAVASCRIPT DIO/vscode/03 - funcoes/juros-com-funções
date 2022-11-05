@@ -1,0 +1,20 @@
+function aplicarDesconto(valor, desconto){
+    return (valor - (valor * (desconto/ 100)));
+
+}
+function AplicarJuros(valor, juros){
+    return(valor + (valor * (juros/100)));
+}
+const precoEtiqueta = 200;
+const formaDePagaemnto = 1;
+
+function ClassificarFormaDePagamento(formaDePagaemnto){}
+if (formaDePagaemnto === 1){
+    console.log(aplicarDesconto(precoEtiqueta, 10));
+} else if (formaDePagaemnto === 2 ) {
+    console.log(aplicarDesconto(precoEtiqueta, 15)); 
+} else if (formaDePagaemnto === 3) {
+    console.log(precoEtiqueta);
+}else {
+    console.log(AplicarJuros(precoEtiqueta, 10))
+}

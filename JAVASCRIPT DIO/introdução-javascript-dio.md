@@ -204,3 +204,5 @@ console.log(resultado);
 })();
 
 caso queira pode retirar o nome da função pois a mesma só funcionará dentro do (), é utilizado bastante na parte Web para isolar códigos/escopos ou utilizado para funções que será executado uma vez somente
+
+**para calcular porcentagem utilizar 10/100** - Para não esquecer no futuro. 
