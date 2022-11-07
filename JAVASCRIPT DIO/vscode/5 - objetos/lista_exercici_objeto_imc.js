@@ -42,4 +42,4 @@ console.log(jose.classificarImc());
 
 const christian = new Pessoa("Christian", 50, 1.60);
 console.log(christian);
-console.log(christian.classificarImc());
+console.log(christian.classificarImc())
