@@ -347,3 +347,47 @@ christian.descrever();
 
 ----------------
 
+## Arrays (Listas)
+
+--------------
+
+{} - Bloco de código/ objeto literal
+
+[] - Lista 
+
+agora em apenas 1 variável da para armazenar um conjunto de dados utilizando lista.
+
+-----------------
+
+**para  adicionar mais informações a lista utilizar:**
+
+*variavel.push('')* **< sempre será adicionado no final da lista / bom para utilizar com a lista vazia.** 
+
+*variavel[4] = "";* **< da forma ao lado você escolhe a posição em que a nova informação estará na lista podendo substituir algum informação da lista.**
+
+---------------
+
+**para remover informações na lista utilizar:**
+
+*variavel.pop()* < **Exclui o ultimo da lista** 
+
+*variavel.shift()* < **Exclui o primeiro da lista**
+
+--------------------
+
+Para verificar o tamanho da lista utilizar:
+
+variavel.lenght <**Mostra a quantidade de coisas que tem na lista**
+
+-----------------
+
+## Estrutura de repetição 
+
+Para usar repetição utilizar:
+
+**for (let variavel = 0; variavel < 10;  variavel++) {**
+
+**}**
+
+------------
+
