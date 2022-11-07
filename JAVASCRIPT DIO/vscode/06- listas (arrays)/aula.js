@@ -6,7 +6,7 @@ notas.push(8);
 notas.push(2);
 notas.push(5);
 
-let soma = 0;
+let soma = 0; 
 
 for (let i = 0; i < notas.length; i++) {
     const nota = notas[i];
