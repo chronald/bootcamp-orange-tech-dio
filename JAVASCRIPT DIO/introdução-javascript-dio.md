@@ -210,3 +210,140 @@ caso queira pode retirar o nome da função pois a mesma só funcionará dentro 
 **para calcular porcentagem utilizar 10/100** - Para não esquecer no futuro. 
 
 **Utilizar F8 para aparecer o resultado automaticamente no node.js**
+
+----------
+
+## Objetos 
+
+Objeto é uma coleção de valores, agrupa valores, funciona através de chave/valor
+
+Como utilizar : 
+
+const variavel = {
+
+​	nome: , 
+
+​	idade: ,
+
+};
+
+
+
+variavel.altura = 
+
+delete variavel.nome;  (Para deletar )
+
+console.log(variavel);
+
+sempre utilizar uma , no final dentro do objeto conforme no exemplo acima 
+
+---------------------
+
+Função dentro de objeto é chamado de método.
+
+Como utilizar função dentro do objeto.
+
+**const pessoa = {**
+
+​	**nome: "nome",**
+
+​	**idade: 25,**
+
+​	**descrever: function(){**
+
+​			**console.log('Meu nome é ${this.nome} e minha idade é ${this.idade}')**
+
+**}**
+
+**}**
+
+como a função está dentro de um objeto utilizar this no console.
+
+-----------
+
+## Classe 
+
+**Classe definição do que deveria ser o objeto e  instância é uma ocorrência do objeto.**
+
+------------
+
+**A classe em código:**
+
+class Pessoa{
+
+​	nome;
+
+​	idade;
+
+​	descrever (){ **// << Função porem não precisa informar pois está dentro de uma classe.**
+
+​	console.log(´Meu nome é ${this.nome} e minha idade é ${this.idade}´)	
+
+}
+
+}
+
+**************
+
+**como instanciar uma classe:**
+
+const variavel = new Pessoa();
+
+variavel.nome = "Nome";
+
+variavel.idade = idade;
+
+
+
+variavel.descrever();
+
+**
+
+-----------
+
+Constructor é oque acontece quando uma pessoa é instanciada.
+
+**o mesmo é utilizado dentro da classe antes da function.**
+
+constructor(nome, idade){
+
+​	this.nome = "teste"
+
+​	this.idade = 20;
+
+}
+
+---------------
+
+**Como ficará um código utilizando classe/função/constructor.**
+
+class Pessoa {
+
+​	nome;
+
+​	idade;
+
+
+
+​	constructor(nome, idade){
+
+​	this.nome = nome;
+
+​	this.idade = idade;	
+
+}
+
+descrever (){
+
+​	console.log('Meu nome é ${this.nome} e minha idade é ${this.idade}')
+
+}
+
+}
+
+const christian = new Pessoa ('Christian', 20);
+
+christian.descrever();
+
+----------------
+
