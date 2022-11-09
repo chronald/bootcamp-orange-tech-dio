@@ -15,6 +15,7 @@
             2x10 = 20
 */
 
+// Não finalizado.
 const {gets, print} = require('./funcoes-auxiliaresTab')
 
 const  numeroTabuada = gets();
