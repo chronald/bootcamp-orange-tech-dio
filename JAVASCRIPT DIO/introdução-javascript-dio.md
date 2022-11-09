@@ -391,3 +391,60 @@ Para usar repetição utilizar:
 
 ------------
 
+## Importação de arquivos
+
+para exportar utilizar
+
+module.exports = {função declarada, função declarada.}
+
+------------
+
+para importar utilizar 
+
+const funcoes = require('./arquivoquevocêquerimportar.')
+
+------------
+
+para utilizar uma função importada utilizar 
+
+console.log(funcoes.gets());
+
+----------------
+
+para realizar um object destructure segue o exemplo abaixo
+
+ao invés de utilizar o formato a seguir, utilizar o segundo formato
+
+const pessoa = {
+
+​	nome: 'vitor'
+
+}
+
+const { nome do atributo } = variavel; ( é possível utilizar vários atributos.)
+
+-----------------
+
+é possivel fazer o destructure direto na importação utilizando as informações a seguir:
+
+
+
+const {gets, print} = require('./funcoes-auxiliares');
+
+---------------------------
+
+para deixar o programa mais dinâmico :
+
+No primeiro indicê, utilizar o total de entradas como exemplo:
+
+const entradas = [**10**, 5,50,10,98,23,74,48,55,100,22];
+
+na primeira x que chamar o gets será a quantidade de números informados no exercicio passado é a quantidade de alunos:
+
+então criará uma variavel:
+
+const **quantidadeDeAlunos **= gets();
+
+e no for utilizar a variavel ao invés da quantidade, ficando assim:
+
+ for (let i = 0; i < **quantidadeDeAlunos**; i++)
