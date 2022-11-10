@@ -6,21 +6,21 @@ HTML:
 
 Marcamos o texto dando significado para ele.
 
-Titulo = <H1> </h1>
+Titulo = **< H1> < /h1>**
 
-Paragrafo = <p> </p>
+Paragrafo = (**< p> < /p>**)
 
 -----------
 
 Para criar um arquivo html utilizar \/
 
-nomearquivo.html
+**nomearquivo.html**
 
 --------------
 
 para deixar o arquivo "pré"-pronto utilizar \/
 
-html:5
+**html:5**
 
 -------------
 
@@ -28,7 +28,7 @@ CSS:
 
 É a forma de estilizar os textos.
 
-<style> </style>
+**< style> < /style>**
 
 ----------------
 
@@ -36,13 +36,13 @@ JAVASCRIPT:
 
 É oque da comportamento para o html
 
-<script> </script>
+**< script> < /script>**
 
-window(representa obrowser) = janela
+**window(representa obrowser) = janela**
 
-document(documento corrente) = identificar i
+**document(documento corrente) **
 
-addEventListenner = chama funções
+**addEventListenner = chama funções**
 
 ----------
 
