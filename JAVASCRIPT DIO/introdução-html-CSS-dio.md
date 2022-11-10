@@ -105,3 +105,66 @@ para dar uma distancia nas escritas do site criar uma class no section com o nom
 ​	padding: 1rem; //baseado no tamanho da fonte M.
 
  }
+
+.content h1 {
+
+​	margin: 0;
+
+}
+
+---------------
+
+#### Estilização na listagem de Pokemon	
+
+Criar uma class="pokemons" no ol dentro do body.
+
+no global css utilizar
+
+
+
+ol.pokemons{
+
+​	list-style: none;
+
+​	padding: 0;
+
+​	margin: 0;
+
+}
+
+--------------
+
+para fazer um layout com um do lado do outro utilizaremos um grind style
+
+
+
+dentro do ol.pokemons incrementar 
+
+
+
+display: grid;
+
+grid-template-columns: 1fr 1fr; 
+
+-------------------
+
+nos itens da lista  utilizar dentro de um novo ol.pokemons 
+
+ol.pokemons li{
+
+​	margin: .5rem:
+
+​	padding: 1rem;
+
+​	color: #fff
+
+​	border-radius: 1rem;
+
+​	background-color: 
+
+}
+
+--------------
+
+
+
