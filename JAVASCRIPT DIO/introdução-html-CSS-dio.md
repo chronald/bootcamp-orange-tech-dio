@@ -74,7 +74,11 @@ apos escolhido a fonte copiar o link e aplicar no head no .html e colar o CSS ru
 
  font-family:
 
+​	box-sizing: border-box; // considerar a borda um tamanho total.
+
 })
+
+
 
 -----------
 
@@ -166,5 +170,40 @@ ol.pokemons li{
 
 --------------
 
+#### Adicionando as imagens dos pokemons
+
+Para adicionar imagens
+
+Entrar na Lista de cada personagem informado e  usar código abaixo
+
+<img src="linkdaimagem preferencialmente raw.githubusercontent.com" alt="Bulbasaur"
+
+obs: sempre alterar o alt conforme a lista que você estiver.
+
+---------------
+
+Ajustando a imagem:
+
+na lista utilizar
+
+display: flex;
+
+flex-direction: column; (rom) um na frente do outro (column) um embaixo do outro.
+
+-----
+
+Para imagens
+
+dentro do css criar um ol.pokemons novo com as seguinte inclusões.
 
 
+
+ol.pokemons li img {
+
+​	
+
+​	max-width: 100%; // para a imagem não vazar para fora da borda.
+
+​	height: 100px;
+
+}
