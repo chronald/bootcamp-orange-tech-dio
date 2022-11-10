@@ -1,5 +1,5 @@
 
-
+// Não finalizado
 function gets() {
    return 5;
 
