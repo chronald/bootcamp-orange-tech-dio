@@ -25,4 +25,4 @@ for(let i= 1; i <= 10; i++){
     console.log(`${ValorDigitado} x ${i} = ${ValorDigitado *  i} `)
 }
 }
-tabuada(ValorDigitado)
+tabuada(ValorDigitado);
