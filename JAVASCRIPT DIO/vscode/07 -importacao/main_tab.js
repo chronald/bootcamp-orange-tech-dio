@@ -15,15 +15,14 @@
             2x10 = 20
 */
 
-// Não finalizado.
-const {gets, print} = require('./funcoes-auxiliaresTab')
 
-const  numeroTabuada = gets();
+const {gets} = require('./funcoes-auxiliaresTab')
 
+const  ValorDigitado = gets();
 
-for(let i= 1; i < 10; i++){
-    const retornoTabuada =(`${i} x ${numeroTabuada} = ${i * numeroTabuada} `)
-    return retornoTabuada;
+function tabuada(ValorDigitado){
+for(let i= 1; i <= 10; i++){
+    console.log(`${ValorDigitado} x ${i} = ${ValorDigitado *  i} `)
 }
-
-print(retornoTabuada)
+}
+tabuada(ValorDigitado)

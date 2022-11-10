@@ -1,7 +1,11 @@
 
-// Não finalizado
+
+const entrada = [3];
+let i = 0;
+
 function gets() {
-   return 5;
+   const valor = entrada[i];
+    return 5;
 
 }
 
