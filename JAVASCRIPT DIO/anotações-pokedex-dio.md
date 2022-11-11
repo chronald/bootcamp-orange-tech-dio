@@ -349,3 +349,111 @@ a resposta do servidor terá um:
 Response Headers  - **Como está sendo configurada**
 
 Response Body - **Resposta em si** 
+
+------------------
+
+### Primeira requisição http via Javascript
+
+há varias formas, mas será feito com Fetch API.
+
+
+
+const offset =0;
+
+const limit = 10
+
+const url = 
+
+
+
+fetch(url).then(function(response){
+
+​	console.log(response)
+
+})
+
+
+
+ // Processamento assíncrono = o retorno não é de imediato. /\
+
+Promise= interface importante para interpretar a requisição e popular a pokedex dinamicamente 
+
+---------------
+
+### Manipulando o resultado da requisição através de uma Promise
+
+para verificar se há algum erro utilizar .catch 
+
+.catch(function (error) {
+
+​	console.error(error)
+
+})
+
+para fazer uma operação independente do sucesso ou fracasso utilizar .finally
+
+.finally (function () {
+
+​	console.log('Requisição concluida!')
+
+})
+
+Ja é a interface de comunicação de uma promise /\
+
+estrutura de tratamento de erros try catch
+
+try {
+
+
+
+}catch(error){
+
+
+
+}finally{
+
+  
+
+}
+
+uma interface onde tem uma promessa, e quando o recurso for disponibilizado irar chamar o then, se der erro no processamento o catch que invariavelmente, ele ira passar pelo finally sempre.
+
+para minimilizar uma fetch utilizar
+
+.then((response) => response.json())
+
+.then((jsonBody) => console.log(jsonBody))
+
+.catch((error) =>console.error(error))
+
+--------------
+
+### Transformando nossa lista de pokémon em uma lista de HTML
+
+Criar uma função que ira converter a lista de pokemon em uma lista de HTML.
+
+function ConvertPokemonToLi(pokemon){
+
+​	return `
+
+Todo o Li incluso no HTML, ira trocar o name para pokemon.name
+
+`
+
+}
+
+**criar um const em cima do fetch da seguinte forma.**
+
+const pokemonList = document.getElementById('pokemonList')
+
+**criar um for dentro do .then pokemons da forma a seguir,**
+
+​	for(let i=0; i<pokemons.length; i++){
+
+​	cont pokemon = pokemons[i];
+
+​	pokemonList.innerHTML += converetPokemonToLi(pokemon)
+
+}
+
+Dessa forma irá concatenar o resultado na pokemonList que é o HTML.
