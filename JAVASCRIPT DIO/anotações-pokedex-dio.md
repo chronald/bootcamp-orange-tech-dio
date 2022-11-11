@@ -218,7 +218,134 @@ Conjunto de css que será aplicado conforme o tamanho da tela.
 
 margin auto = maximo pra esquerda maximo pra direita (jeito simples de centralizar)
 
+---------------
 
+## Introdução a APIs
 
+Api é um servidor que está servindo dados 
 
+**Importantíssimo entender como o protocolo HTTP funciona**
 
+------------
+
+#### Como funciona as requisições.
+
+o browser faz uma solicitação, é processada pelo servidor e há um retorno com a resposta.
+
+---------------------------
+
+### URL Path e Method
+
+Para montar uma requisição http, há primeiro a URL:  (IP / path=caminho de identificação do recurso.
+
+IP : (https://pokeapi.co)
+
+local ( http://127.0.0.1:8080)
+
+--------------
+
+path = /api/v2/pokemon
+
+-----------
+
+Request method : (Sempre que for fazer uma requisição para o servidor terá um tipo)
+
+-------------
+
+GET | POST | PUT | DELETE | PATCH 
+
+GET = Quando é feito um get no /pokemon, o servidor entende que quer buscar o recurso.
+
+POST = Quando é feito um post no /pokemon, caso esteja seguindo alguns princípios, quer dizer que quer inserir um novo pokemon
+
+PUT = Quando é feito um put no /pokemon, quer dizer que quer atualizar o pokemon
+
+DELETE = Quando é feito um delete no /pokemon/1, quer dizer que quer deletar o pokemon 1
+
+------------
+
+Toda requisição para um recurso o método diz oque a gente quer fazer sobre esse recurso, principalmente nas APIS que segue o padrão de projeto rest.
+
+---------------
+
+Simplificando
+
+a requisição é feita encima de um IP/DOMINIO e com o patch que irá identificar o recurso, e oque será feito sobre o recurso é dito pelo method.
+
+-----------
+
+### Path Params e Query String
+
+Formas de passar dados:
+
+no proprio patch.
+
+https://pokeapi.com/api/v2/pokemon/1
+
+------------
+
+Query String = Descrição de busca, após o ? é a Query String, sempre será chave+valor, caso queira mais alguma informação utilizar &
+
+*https://pokeapi.com/api/v2/pokemon?type=grass*&name=i
+
+-----------
+
+### Headers
+
+Os Headers normalmente são metadados/configurações da nossa requisição, são coisas para  descrever a nossa requisição ou complementar a nossa requisição.
+
+-------------------
+
+Request Headers (Configuração da nossa API)
+
+Exemplo : 
+
+accept-language:
+
+pt-Br; q=1
+
+pt;q=0.9
+
+en-US;q=0.8
+
+en;q=0.7
+
+gl;q=0.6
+
+q = Prioridade 
+
+Response Headers (Como está sendo configurada.)
+
+------------
+
+### Body e Status Code
+
+Body = Corpo da nossa requisição.
+
+e de acordo com o tipo, faz sentido ter o body.
+
+(POST/PUT - FAZ SENTIDO)
+
+(GET/DELETE - NÃO FAZ TANTO SENTIDO.)
+
+Body pode ter na requisição e na resposta.
+
+oque vai no body é de acordo com o content-type.
+
+Request Body
+
+{
+
+ "name": "Teste"
+
+}
+
+a resposta do servidor terá um:
+
+ **STATUS CODE** - Significa oque aconteceu com a nossa requisição. 
+
+200 - ok
+
+Response Headers  - **Como está sendo configurada**
+
+Response Body - **Resposta em si** 
