@@ -210,5 +210,15 @@ ol.pokemons li img {
 
 -----------
 
-#### 
+#### Media query css
+
+Conjunto de css que será aplicado conforme o tamanho da tela.
+
+-----------
+
+margin auto = maximo pra esquerda maximo pra direita (jeito simples de centralizar)
+
+
+
+
 
