@@ -207,3 +207,8 @@ ol.pokemons li img {
 ​	height: 100px;
 
 }
+
+-----------
+
+#### 
+
